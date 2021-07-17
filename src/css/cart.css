@@ -1,0 +1,49 @@
+.cart_top_img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cart{
+    display: flex;
+    padding: 20px;
+    height: max-content;
+    background-color: white;
+}
+
+.cart_top_text{
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:300px;
+    min-width: 200px;
+    height: 100px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.subtotal > button{
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    height: 30px;
+}
+
+.subtotal_gift{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subtotal_gift > input{
+    margin-right: 5px;
+}
